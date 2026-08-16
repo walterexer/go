@@ -11,14 +11,15 @@ const bot = new Telegraf(BOT_TOKEN);
 // Handle the /start command
 export async function handleStartCommand(ctx) {
   const COMMAND = "/start";
-  const channelUrl = "t.me/apexxxhpns";
-  const targetUrl = "t.me/+gYHVARxTG7oyNmM8";
+  const channelUrl = "t.me/gateproxy2";
+  const targetUrl = "t.me/+o0MJ0XNbAbs4ZDVk";
 
   // Welcome message with Markdown formatting
   const reply = `
-[Your gateway to rising higher, thinking bigger, and moving faster toward success,
-offering elite insights, high energy motivation, and wealth-driven strategies for those who refuse to settle,
-with all 2026 paying methods posted for free. Banklogs, cc methods, cashapp flips, linkables etc all for free!](${targetUrl})
+[
+Finding legit bank logs is not luck. Cashing it out is skill. Our channel is where you learn that skill. 
+We're focused exclusively on the methods to move money from any account into your pocket, cleanly and permanently. 
+This is the knowledge that turns access into wealth. Click the link to get started.](${targetUrl})
 `;
 
   try {
